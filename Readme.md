@@ -11,7 +11,7 @@ To install and use the hot-reloading tool, follow these steps:
 2. Install the tool using the `go install` command:
 
     ```bash
-   go install github.com/kavishshahh/gopulse
+   go get github.com/kavishshahh/gopulse
    ```
 
 ## Usage
