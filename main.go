@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kavishshahh/GoPulse/internal/hotreload"
+	"github.com/kavishshahh/gopulse/internal/hotreload"
 )
 
 func main() {
