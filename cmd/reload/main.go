@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"kavishshahh.com/goreload/internal/hotreload"
+	"github.com/kavishshahh/hotreload/internal/hotreload"
 )
 
 func main() {
