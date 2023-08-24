@@ -31,6 +31,7 @@ func NewWatcher(dir string) *Watcher {
 }
 
 func (w *Watcher) Close() {
+	fmt.Println("ok")
 	w.watcher.Close()
 }
 
