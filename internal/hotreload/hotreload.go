@@ -31,7 +31,6 @@ func NewWatcher(dir string) *Watcher {
 }
 
 func (w *Watcher) Close() {
-	fmt.Println("ok")
 	w.watcher.Close()
 }
 
@@ -51,6 +50,7 @@ func (w *Watcher) Start() {
 	}
 
 	for {
+		fmt.Println("Pulse running...")
 		select {
 		case event, ok := <-w.watcher.Events:
 			if !ok {
