@@ -13,11 +13,7 @@ To install and use the hot-reloading tool, follow these steps:
     ```bash
    go install github.com/kavishshahh/gopulse
    ```
-Verify that the installation was successful by running the following command:
 
-   ```bash
-   gopulse --version
-   ```
 ## Usage
 To use the hot-reloading tool, follow these steps:
 
@@ -26,7 +22,7 @@ Navigate to the directory of your Go project that you want to monitor for change
 Run the following command to start the hot-reloading watcher:
 
 ```bash
-gopulse
+hotreload
 ```
 
 The tool will begin monitoring your project directory for changes.
