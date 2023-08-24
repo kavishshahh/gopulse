@@ -1,4 +1,4 @@
-module github.com/kavishshahh/hotreload
+module github.com/kavishshahh/gopulse
 
 go 1.20
 
